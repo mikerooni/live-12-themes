@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ableton MajorVersion="5" MinorVersion="12.0_12049" SchemaChangeCount="3" Creator="Ableton Live 12.0d1" Revision="">
+	<Theme>
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                        WINDOW                                                        -->
+		<!-- ==================================================================================================================== -->
+		
+		<!-- ??? -->
+		<AbletonColor Value="#000000" />
+		<!-- main window background -->
+		<Desktop Value="#000000" />
+		<!-- borders between tracks, scenes, and other UI elements (e.g. browser panes, space between devices inside racks, separators) -->
+		<SurfaceArea Value="#000000" />
+		<!-- ??? -->
+		<SurfaceAreaFocus Value="#000000" />
+		<!-- background color for most UI elements other than the "desktop" -->
+		<SurfaceBackground Value="#000000" />
+		<!--
+			background for 
+			- currently highlighted track/scene
+			- unselected device titles, rack borders in the selected track
+			- selected settings tab
+		-->
+		<SurfaceHighlight Value="#000000" />
+
+		<!-- background color for small indicators like glue compressor's clip indicator (while inactive) -->
+		<DisplayBackground Value="#000000" />
+		<!-- background for Audio/MIDI level meters in device chains -->
+		<MeterBackground Value="#000000" />
+		
+		<!-- background for the clip (note) and audio editors -->
+		<DetailViewBackground Value="#000000" />
+
+		<!-- status bar alert background -->
+		<Alert Value="#000000" />
+
+		<!-- highlight color for learning modes -->
+		<LearnMidi Value="#000000" />
+		<LearnKey Value="#000000" />
+		<LearnMacro Value="#000000" />
+
+		<!-- color for view controls (pane toggles), their dropdown arrows always use off color -->
+		<ViewControlOn Value="#000000" />
+		<ViewControlOff Value="#000000" />
+
+		<!-- scale awareness toggles, as well as scale highlight on the piano roll -->
+		<ScaleAwareness Value="#000000" />
+
+		<!-- border for currently focused panel, zoom border for the arrangement view -->
+		<MainViewFocusIndicator Value="#000000" />
+		
+		<!-- 
+			- labels on the bottom right of the main track
+			- hover labels for the sections below the note editor
+		-->
+		<GridLabel Value="#000000" />
+		<!-- grid line color -->
+		<GridLineBase Value="#000000" />
+
+		<!-- guidelines when dragging clips/notes -->
+		<GridGuideline Value="#000000" />
+		<OffGridGuideline Value="#000000" />
+
+		<!-- transport (top bar) control background -->
+		<TransportOffBackground Value="#000000" />
+		<!-- transport control text -->
+		<TransportOffForeground Value="#000000" />
+		<!-- transport control text (greyed-out controls)-->
+		<TransportOffDisabledForeground Value="#000000" />
+		<!-- currently selected transport control background -->
+		<TransportSelectionBackground Value="#000000" />
+
+		<!-- frame for the MIDI-IO indicators (top right) -->
+		<ControlContrastTransport Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                      SELECTION                                                       -->
+		<!-- ==================================================================================================================== -->
+
+		<!-- background color for the current pane's selected element -->
+		<SelectionBackground Value="#000000" />
+		<!-- background color for other selected elements (e.g. active selection in other panes), doesn't apply to selected tracks/clips -->
+		<StandbySelectionBackground Value="#000000" />
+		<!-- text color for the current pane's selected element -->
+		<SelectionForeground Value="#000000" />
+		<!-- text color for other selected elements -->
+		<StandbySelectionForeground Value="#000000" />
+		<!-- ??? -->
+		<SelectionBackgroundContrast Value="#000000" />
+		<!-- take lane background for the currently selected track -->
+		<TakeLaneTrackHighlighted Value="#000000" />
+		<!-- take lane background for all other tracks -->
+		<TakeLaneTrackNotHighlighted Value="#000000" />
+
+		
+		<!-- Also see `ControlSelectionFrame` in the controls secion -->
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                               ARRANGEMENT / SCENE VIEW                                               -->
+		<!-- ==================================================================================================================== -->
+
+		<!-- accent color in the arranger grid -->
+		<ArrangerGridTiles Value="#000000" />
+		<!-- time and bar label text color in the arrangement view -->
+		<ArrangementRulerMarkings Value="#000000" />
+
+		<!-- text color for tracks and clips (only applies to dark text colors / light bg color) -->
+		<ClipText Value="#000000" />
+		<!-- ??? -->
+		<ClipBorder Value="#000000" />
+		<!-- play/stop/record buttons for session clips, single-track-back-to-arrangement button foreground -->
+		<ClipSlotButton Value="#000000" />
+		<!-- ??? -->
+		<SceneContrast Value="#000000" />
+
+		<!-- deactivated clip header background and text -->
+		<DeactivatedClipHeader Value="#000000" />
+		<DeactivatedClipHeaderForeground Value="#000000" />
+
+		<!-- color for parameter automation graphs, as well as the little "automation enabled" dot on automated controls -->
+		<AutomationColor Value="#000000" />
+		<!-- ??? -->
+		<AutomationGrid Value="#000000" />
+
+		<!-- outline color for the loop region (and its selector) -->
+		<LoopColor Value="#000000" />
+		<!-- loop region outline for loop start/end that is off-grid -->
+		<OffGridLoopColor Value="#000000" />
+		
+		<!-- color of notes and waveforms in arrangement view (enabled clips) -->
+		<WaveformColor Value="#000000" />
+		<!-- color of notes and waveforms in arrangement view (disabled clips) -->
+		<DimmedWaveformColor Value="#000000" />
+
+
+		<!-- highlighting color when hovering over a track link icon -->
+		<LinkedTrackHover Value="#000000" />
+		<!-- frozen track overlay and track color -->
+		<FreezeColor Value="#000000" />
+
+
+		<!-- indicator and graph color for manually overriden automation -->
+		<AutomationDisabled Value="#000000" />
+		<!-- automation graph hover color -->
+		<AutomationMouseOver Value="#000000" />
+
+		<!-- automation transform tool (inside selection on automation lanes) frame -->
+		<AutomationTransformToolFrame Value="#000000" />
+		<!-- automation transform tool frame when dragged back to original values -->
+		<AutomationTransformToolFrameActive Value="#000000" />
+		<!-- automation transform tool handles -->
+		<AutomationTransformToolHandle Value="#000000" />
+		<!-- automation transform tool while hovering or dragging -->
+		<AutomationTransformToolHandleActive Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                     CLIP EDITOR                                                      -->
+		<!-- ==================================================================================================================== -->
+
+		<!-- accent color in the midi/audio clip editor grid -->
+		<DetailGridTiles Value="#000000" />
+		<!-- bar markers in midi/audio clip views, tab colors for non-selected clip tabs -->
+		<DetailViewRulerMarkings Value="#000000" />
+
+		<!-- piano roll key guide colors (left of the midi area) -->
+		<PianoBlackKey Value="#000000" />
+		<PianoWhiteKey Value="#000000" />
+		<PianoKeySeparator Value="#000000" />
+
+		<!-- black key lanes in the midi editor (behind notes, horizontal, not the keys themselves) -->
+		<MidiEditorBlackKeyBackground Value="#000000" />
+		<!-- separators between adjacent white keys in the midi editor -->
+		<MidiEditorBackgroundWhiteKeySeparator Value="#000000" />
+
+
+		<!-- midi clip envelope graph color -->
+		<Modulation Value="#000000" />
+		<!-- ??? -->
+		<ModulationDisabled Value="#000000" />
+		<!-- midi clip envelope hover color -->
+		<ModulationMouseOver Value="#000000" />
+
+		<!-- current MPE expression lane "header" (the scale on the left side) -->
+		<ExpressionLaneHeaderHighlight Value="#000000" />
+		
+		<!-- ??? -->
+		<VelocityColor Value="#000000" />
+		<!-- hover color for a note's velocity control and MPE graphs in the midi clip editor -->
+		<VelocitySelectedOrHovered Value="#000000" />
+		<!-- ??? -->
+		<NoteProbability Value="#000000" />
+
+		<!-- audio clip warp time bar (on the bottom when warp is disabled) -->
+		<WarperTimeBarRulerBackground Value="#000000" />
+		<!-- audio clip warp time bar (on the top when warp is enabled) -->
+		<WarperTimeBarMarkerBackground Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                       CONTROLS                                                       -->
+		<!-- ==================================================================================================================== -->
+		
+		<!-- background for (clickable) UI elements -->
+		<ControlBackground Value="#000000" />
+		<!-- default text color -->
+		<ControlForeground Value="#000000" />
+		<!-- border color on almost all clickable/draggable controls -->
+		<ControlContrastFrame Value="#000000" />
+		<!-- selection outline for all controls, including dials -->
+		<ControlSelectionFrame Value="#000000" />
+
+		<!-- text color for enabled buttons -->
+		<ControlOnForeground Value="#000000" />
+		<!-- text color for disabled buttons, stop button bg color -->
+		<ControlOffForeground Value="#000000" />
+		<!-- text color for enabled inactive (greyed out) buttons -->
+		<ControlOnDisabledForeground Value="#000000" />
+		<!-- text color for disabled inactive (greyed out) buttons -->
+		<ControlOffDisabledForeground Value="#000000" />
+		<!-- text color for most "weaker" enabled buttons (except monitoring mode == "in" on tracks) -->
+		<ControlOnAlternativeForeground Value="#000000" />
+
+		<!-- background for controls with text in them (e.g. sliders, dropdowns) -->
+		<ControlTextBack Value="#000000" />
+
+		<!-- text color for disabled elements -->
+		<TextDisabled Value="#000000" />
+		<!-- background for disabled UI elements (e.g. currently selected buttons) -->
+		<ControlDisabled Value="#000000" />
+		
+
+		<!-- background for enabled toggles / currently selected multi-buttons -->
+		<ChosenDefault Value="#000000" />
+		<!-- "weaker" color for enabled toggles / currently selected multi-buttons (used e.g. on track mute buttons when monitoring mode is set to "in", but rarely for some device toggles as well) -->
+		<ChosenAlternative Value="#000000" />
+
+		<!-- color for active play button -->
+		<ChosenPlay Value="#000000" />
+		<!-- color for active record & arm buttons -->
+		<ChosenRecord Value="#000000" />
+		<!-- color for implicitly active arm buttons -->
+		<ImplicitArm Value="#000000" />
+		<!-- background for certain "alert" UI elements (e.g. the "back to arrangement" button while scene clips are playing) -->
+		<ChosenAlert Value="#000000" />
+		<!-- preview/cue volume background -->
+		<ChosenPreListen Value="#000000" />
+
+
+		<!-- active part of slider range -->
+		<RangeEditField Value="#000000" />
+		<RangeEditField2 Value="#000000" />
+		<RangeEditField3 Value="#000000" />
+		<!-- slider triangle color -->
+		<ControlFillHandle Value="#000000" />
+
+
+		<!-- dial line background (non-active range) -->
+		<Poti Value="#000000" />
+		<!-- dial needle -->
+		<PotiNeedle Value="#000000" />
+		<!-- disabled dial line background (non-active range) -->
+		<DeactivatedPoti Value="#000000" />
+		<!-- disabled dial needle -->
+		<DeactivatedPotiNeedle Value="#000000" />
+		<!-- active part of dial range -->
+		<RangeDefault Value="#000000" />
+		<!-- active part of disabled dial range -->
+		<RangeDisabled Value="#000000" />
+		<!-- ??? -->
+		<RangeDisabledOff Value="#000000" />
+		
+
+		<!-- triangle color for bipolar sliders when the value isn't the default -->
+		<BipolReset Value="#000000" />
+		<!-- bipolar dial center marker triangle -->
+		<BipolarPotiTriangle Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                     LCD-Type UIs                                                     -->
+		<!-- ==================================================================================================================== -->
+
+		<!-- LCD background -->
+		<RetroDisplayBackground Value="#000000" />
+		<!-- LCD separators / weak background elements -->
+		<RetroDisplayBackgroundLine Value="#000000" />
+		<!-- LCD text / graphs -->
+		<RetroDisplayForeground Value="#000000" />
+		<!-- LCD accent text  -->
+		<RetroDisplayForeground2 Value="#000000" />
+		<!-- LCD disabled / weak (e.g. headlines) text  -->
+		<RetroDisplayForegroundDisabled Value="#000000" />
+		<!-- LCD green -->
+		<RetroDisplayGreen Value="#000000" />
+		<!-- LCD red -->
+		<RetroDisplayRed Value="#000000" />
+		<!-- LCD handles, text color for draggable controls and  -->
+		<RetroDisplayHandle1 Value="#000000" />
+		<RetroDisplayHandle2 Value="#000000" />
+		<!-- ??? -->
+		<RetroDisplayScaleText Value="#000000" />
+		<!-- LCD section titles -->
+		<RetroDisplayTitle Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                      SCROLLBARS                                                      -->
+		<!-- ==================================================================================================================== -->
+
+		<!-- scrollbars -->
+		<ScrollbarInnerHandle Value="#000000" />
+		<ScrollbarInnerTrack Value="#000000" />
+		<ScrollbarInnerHandleHover Value="#000000" />
+		<ScrollbarInnerTrackHover Value="#000000" />
+
+		<!-- LCD scrollbars -->
+		<ScrollbarLCDHandle Value="#000000" />
+		<ScrollbarLCDTrack Value="#000000" />
+		<ScrollbarLCDHandleHover Value="#000000" />
+		<ScrollbarLCDTrackHover Value="#000000" />
+
+		<!-- horizontal scrollbar for the session view -->
+		<ScrollbarMixerShowOnScrollHandle Value="#000000" />
+		<ScrollbarMixerShowOnScrollHandleHover Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                       BROWSER                                                        -->
+		<!-- ==================================================================================================================== -->
+		
+		<!-- background for the titlebar of the browser -->
+		<BrowserBar Value="#000000" />
+		<!-- browser search field text color -->
+		<BrowserBarOverlayHintTextColor Value="#000000" />
+		<!-- disabled item text colors for browser filters -->
+		<BrowserDisabledItem Value="#000000" />
+		<!-- sample preview waveform in the browser -->
+		<BrowserSampleWaveform Value="#000000" />
+		<!-- browser search tag (selectable, not selected) -->
+		<BrowserTagBackground Value="#000000" />
+
+		<!-- browser "results" bar -->
+		<SearchIndication Value="#000000" />
+
+		<!-- tree view header background (unfocused panels) -->
+		<TreeColumnHeadBackground Value="#000000" />
+		<!-- tree view header background (focused panel) -->
+		<TreeColumnHeadFocus Value="#000000" />
+		<!-- tree view header text -->
+		<TreeColumnHeadForeground Value="#000000" />
+		<!-- tree view header while clicking on it -->
+		<TreeColumnHeadSelected Value="#000000" />
+		<!-- tree view sorting controls -->
+		<TreeColumnHeadControl Value="#000000" />
+		<!-- browser category label text & expand/collapse arrows -->
+		<TreeRowCategoryForeground Value="#000000" />
+		<!-- browser category label background -->
+		<TreeRowCategoryBackground Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                  RACKS AND DEVICES                                                   -->
+		<!-- ==================================================================================================================== -->
+
+		<!-- buttons on the left side of racks -->
+		<ViewCheckControlEnabledOn Value="#000000" />
+		<ViewCheckControlEnabledOff Value="#000000" />
+		<ViewCheckControlDisabledOn Value="#000000" />
+		<ViewCheckControlDisabledOff Value="#000000" />
+
+		<!-- Rack zone backgrounds & crossfade ramp colors -->
+		<KeyZoneBackground Value="#000000" />
+		<KeyZoneCrossfadeRamp Value="#000000" />
+		<VelocityZoneBackground Value="#000000" />
+		<VelocityZoneCrossfadeRamp Value="#000000" />
+		<SelectorZoneBackground Value="#000000" />
+		<SelectorZoneCrossfadeRamp Value="#000000" />
+
+		<!-- Drum Rack scroll view background (except filled pads)-->
+		<DrumRackScroller1 Value="#000000" />
+		<DrumRackScroller2 Value="#000000" />
+		<!-- filled drum rack pad bg (except selected) -->
+		<FilledDrumRackPad Value="#000000" />
+
+
+		<!-- Operator colors (A, B, C, D respectively) -->
+		<Operator1 Value="#000000" />
+		<Operator2 Value="#000000" />
+		<Operator3 Value="#000000" />
+		<Operator4 Value="#000000" />
+
+		<!-- threshold line color for compressor, gate, envelope follower mod sources, etc. -->
+		<ThresholdLineColor Value="#000000" />
+		
+		<!-- compressor gain reduction graph -->
+		<GainReductionLineColor Value="#000000" />
+		<!-- compressor input level graph -->
+		<InputCurveColor Value="#000000" />
+		<InputCurveOutlineColor Value="#000000" />
+		<!-- compressor output level graph -->
+		<OutputCurveColor Value="#000000" />
+		<OutputCurveOutlineColor Value="#000000" />
+
+		<!-- EQ8 spectrum background -->
+		<SpectrumDefaultColor Value="#000000" />
+		<!-- ??? -->
+		<SpectrumAlternativeColor Value="#000000" />
+		<!-- EQ8 & Spectrum grid lines -->
+		<SpectrumGridLines Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                     CLIP COLORS                                                      -->
+		<!-- ==================================================================================================================== -->
+
+		<Clip1 Value="#000000" />
+		<Clip2 Value="#000000" />
+		<Clip3 Value="#000000" />
+		<Clip4 Value="#000000" />
+		<Clip5 Value="#000000" />
+		<Clip6 Value="#000000" />
+		<Clip7 Value="#000000" />
+		<Clip8 Value="#000000" />
+		<Clip9 Value="#000000" />
+		<Clip10 Value="#000000" />
+		<Clip11 Value="#000000" />
+		<Clip12 Value="#000000" />
+		<Clip13 Value="#000000" />
+		<Clip14 Value="#000000" />
+		<Clip15 Value="#000000" />
+		<Clip16 Value="#000000" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                        OTHER                                                         -->
+		<!-- ==================================================================================================================== -->
+
+		<DefaultBlendFactor Value="0.7570000291" />
+		<IconBlendFactor Value="0.7300000191" />
+		<ClipBlendFactor Value="0.7580000162" />
+		<NoteBorderStandbyBlendFactor Value="0.5360000134" />
+		<RetroDisplayBlendFactor Value="1" />
+		<CheckControlNotCheckedBlendFactor Value="0.5" />
+		<MixSurfaceAreaBlendFactor Value="0.375" />
+		<TextFrameSegmentBlendFactor Value="0.3950000107" />
+		<NoteDisabledSelectedBlendFactor Value="0.5" />
+		<MinVelocityNoteBlendFactor Value="0.2639999986" />
+		<StripedBackgroundShadeFactor Value="0.8999999762" />
+		<NonEditableAutomationAlpha Value="127" />
+		<DisabledContextMenuIconAlpha Value="85" />
+		<ClipBorderAlpha Value="120" />
+		<ScrollBarAlpha Value="255" />
+		<ScrollBarOnHoverAlpha Value="255" />
+		<ScrollBarBackgroundAlpha Value="255" />
+		<InaudibleTakeLightness Value="0.322000000000000008" />
+		<InaudibleTakeSaturation Value="0.775000000000000022" />
+		<InaudibleTakeNameLightness Value="0.800000000000000044" />
+		<InaudibleTakeNameSaturation Value="0.853999999999999981" />
+		<AutomationLaneClipBodyLightness Value="0.260000000000000009" />
+		<AutomationLaneClipBodySaturation Value="0.80600000000000005" />
+		<AutomationLaneHeaderLightness Value="0.251000000000000001" />
+		<AutomationLaneHeaderSaturation Value="0.53400000000000003" />
+		<TakeLaneHeaderLightness Value="0.479999999999999982" />
+		<TakeLaneHeaderSaturation Value="0.900000000000000022" />
+		<TakeLaneHeaderNameLightness Value="0.849999999999999978" />
+		<TakeLaneHeaderNameSaturation Value="0.900000000000000022" />
+		<AutomationLaneHeaderNameLightness Value="0.708999999999999964" />
+		<AutomationLaneHeaderNameSaturation Value="0.900000000000000022" />
+		<ClipContrastColorAdjustment Value="24" />
+		<SessionSlotOklabLCompensationFactor Value="20" />
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                        METERS                                                        -->
+		<!-- ==================================================================================================================== -->
+
+		<StandardVuMeter>
+			<OnlyMinimumToMaximum Value="false" />
+			<Maximum Value="#ff0a0a" />
+			<AboveZeroDecibel Value="#ff0a0a" />
+			<ZeroDecibel Value="#ff0a0a" />
+			<BelowZeroDecibel1 Value="#ffd100" />
+			<BelowZeroDecibel2 Value="#00f758" />
+			<Minimum Value="#00f758" />
+		</StandardVuMeter>
+		<OverloadVuMeter>
+			<OnlyMinimumToMaximum Value="true" />
+			<Maximum Value="#ff0a0a" />
+			<AboveZeroDecibel Value="#ffffff" />
+			<ZeroDecibel Value="#ffffff" />
+			<BelowZeroDecibel1 Value="#ffffff" />
+			<BelowZeroDecibel2 Value="#ffffff" />
+			<Minimum Value="#af0a0a" />
+		</OverloadVuMeter>
+		<DisabledVuMeter>
+			<OnlyMinimumToMaximum Value="false" />
+			<Maximum Value="#ff0a0a" />
+			<AboveZeroDecibel Value="#ffd00a" />
+			<ZeroDecibel Value="#828282" />
+			<BelowZeroDecibel1 Value="#7e7e7e" />
+			<BelowZeroDecibel2 Value="#7b7b7b" />
+			<Minimum Value="#6e6e6e" />
+		</DisabledVuMeter>
+		<HeadphonesVuMeter>
+			<OnlyMinimumToMaximum Value="false" />
+			<Maximum Value="#a5a5f1" />
+			<AboveZeroDecibel Value="#90aaec" />
+			<ZeroDecibel Value="#90aaec" />
+			<BelowZeroDecibel1 Value="#85b8f1" />
+			<BelowZeroDecibel2 Value="#7cc6f5" />
+			<Minimum Value="#0affff" />
+		</HeadphonesVuMeter>
+		<SendsOnlyVuMeter>
+			<OnlyMinimumToMaximum Value="false" />
+			<Maximum Value="#c8c800" />
+			<AboveZeroDecibel Value="#c8c800" />
+			<ZeroDecibel Value="#6464ff" />
+			<BelowZeroDecibel1 Value="#6464ff" />
+			<BelowZeroDecibel2 Value="#6464ff" />
+			<Minimum Value="#6464ff" />
+		</SendsOnlyVuMeter>
+		<BipolarGainReductionVuMeter>
+			<OnlyMinimumToMaximum Value="false" />
+			<Maximum Value="#5577c6" />
+			<AboveZeroDecibel Value="#5577c6" />
+			<ZeroDecibel Value="#ffa519" />
+			<BelowZeroDecibel1 Value="#ffa519" />
+			<BelowZeroDecibel2 Value="#ffa519" />
+			<Minimum Value="#ffa519" />
+		</BipolarGainReductionVuMeter>
+		<OrangeVuMeter>
+			<OnlyMinimumToMaximum Value="true" />
+			<Maximum Value="#ffa519" />
+			<AboveZeroDecibel Value="#ffa519" />
+			<ZeroDecibel Value="#ffa519" />
+			<BelowZeroDecibel1 Value="#ffa519" />
+			<BelowZeroDecibel2 Value="#ffa519" />
+			<Minimum Value="#ffa519" />
+		</OrangeVuMeter>
+
+
+
+
+		<!-- ==================================================================================================================== -->
+		<!--                                                       UNKNOWN                                                        -->
+		<!-- ==================================================================================================================== -->
+
+		<ShadowDark Value="#000000" />
+		<ShadowLight Value="#000000" />
+		
+		<PreferencesTab Value="#000000" />
+		
+		<SelectionFrame Value="#000000" />
+
+		<Progress Value="#000000" />
+		<ProgressText Value="#000000" />
+		<TransportProgress Value="#000000" />
+
+		<BackgroundClip Value="#000000" />
+		<BackgroundClipFrame Value="#000000" />
+		
+		<MutedAuditionClip Value="#000000" />
+
+		<MidiNoteMaxVelocity Value="#000000" />
+		
+	</Theme>
+</Ableton>
