@@ -73,6 +73,11 @@
 
 		<!-- frame for the MIDI-IO indicators (top right) -->
 		<ControlContrastTransport Value="#000000" />
+		
+		<!-- color of notes and waveforms (enabled clips) -->
+		<WaveformColor Value="#000000" />
+		<!-- color of notes and waveforms (disabled clips) -->
+		<DimmedWaveformColor Value="#000000" />
 
 
 
@@ -133,11 +138,6 @@
 		<LoopColor Value="#000000" />
 		<!-- loop region outline for loop start/end that is off-grid -->
 		<OffGridLoopColor Value="#000000" />
-		
-		<!-- color of notes and waveforms in arrangement view (enabled clips) -->
-		<WaveformColor Value="#000000" />
-		<!-- color of notes and waveforms in arrangement view (disabled clips) -->
-		<DimmedWaveformColor Value="#000000" />
 
 
 		<!-- highlighting color when hovering over a track link icon -->
@@ -346,7 +346,7 @@
 		<!--                                                       BROWSER                                                        -->
 		<!-- ==================================================================================================================== -->
 		
-		<!-- background for the titlebar of the browser -->
+		<!-- background for the search bar of the browser -->
 		<BrowserBar Value="#000000" />
 		<!-- browser search field text color -->
 		<BrowserBarOverlayHintTextColor Value="#000000" />
