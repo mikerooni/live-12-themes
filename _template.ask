@@ -423,7 +423,7 @@
 
 		<!-- EQ8 spectrum background -->
 		<SpectrumDefaultColor Value="#000000" />
-		<!-- ??? -->
+		<!-- EQ8 spectrum in single-band audition mode -->
 		<SpectrumAlternativeColor Value="#000000" />
 		<!-- EQ8 & Spectrum grid lines -->
 		<SpectrumGridLines Value="#000000" />
